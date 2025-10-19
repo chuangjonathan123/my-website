@@ -47,6 +47,18 @@ nav a {
   font-weight: bold;
 }
 
+.join-link {
+  color: whitesmoke;       
+  font-weight: bold;     
+  text-decoration: none; 
+  font-size: 2.0rem;
+}
+.join-link:hover {
+  color: #0066ff;       
+  text-decoration: underline; 
+}
+
+
 nav a:hover {
   text-decoration: underline;
 }
