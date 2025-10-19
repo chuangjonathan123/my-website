@@ -1,3 +1,4 @@
+
 head {
   margin:0;
   padding: 0;
@@ -12,13 +13,12 @@ body {
   padding: 0;
   background-color: #0F3B53;
   color: #F0EBD4;
- 
 }
 
 header {
   background-color: white;
   color: black;
-  padding: 1rem;
+  padding: 10px;
   text-align: center;
 }
 
@@ -40,9 +40,30 @@ section {
   margin: auto;
    font-size:20px;
 }
+.officers-section {
+   display:grid;
+   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+   gap: 20px;
+  padding: 40px;
+  justify-items :center;
+  color: #F0EBD4;
+}
+.officer img { width:150px; 
+  height:150px; 
+  object-fit:cover; 
+  border-radius:50%; 
+  margin-bottom:10px; 
+  margin-left:30px;
+}
+.officer p{
+   font-weight: bold;
+  height: 40px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
-
-/* Contact button */
 
 #homeBtn {
   background-color: black;
@@ -57,11 +78,13 @@ section {
   background-color: #0066ff;
 }
 
-/* Footer */
 footer {
-  background-color: #222;
-  color: white;
+  background-color: black;
+  color: #F0EBD4;
   text-align: center;
-  padding: 1rem;
-  margin-top: 1rem;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
+
