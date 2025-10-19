@@ -7,12 +7,30 @@ head {
 
 }
 
-body {
-  font-family: 'Segoe UI', Arial, sans-serif;
+html, body {
+  height: 100%;
   margin: 0;
   padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', Arial, sans-serif;
   background-color: #0F3B53;
   color: #F0EBD4;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background-color: black;
+  color: #F0EBD4;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
 }
 
 header {
@@ -33,7 +51,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Sections */
+
 section {
   padding: 2rem;
   max-width: 800px;
@@ -48,7 +66,8 @@ section {
   justify-items :center;
   color: #F0EBD4;
 }
-.officer img { width:150px; 
+.officer img { 
+  width:150px; 
   height:150px; 
   object-fit:cover; 
   border-radius:50%; 
@@ -74,17 +93,6 @@ section {
   cursor:pointer;
 }
 
-#contactBtn:hover {
-  background-color: #0066ff;
-}
 
-footer {
-  background-color: black;
-  color: #F0EBD4;
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
+
 
