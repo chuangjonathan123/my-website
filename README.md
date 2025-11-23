@@ -1,2 +1,3 @@
-Website coded on VS Code for InvestEd, a club at Arcadia High School Newest changes were actually coded last month, but I just comitted it from VS while checking for updates. Have a good day!
+Worked on frontend and asistsed with backend with other club officers. 
+Latest update was last week but only comitted today 11/23 
 Jonathan Chuang
