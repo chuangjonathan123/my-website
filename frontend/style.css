@@ -105,6 +105,21 @@ section {
   cursor:pointer;
 }
 
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: black;
+  color: #F0EBD4;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: none;
+}
+#backToTop:hover {
+  background: #0066ff;
+}
 
 
 
